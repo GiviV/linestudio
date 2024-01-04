@@ -1,0 +1,45 @@
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  Undefined array key "name" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 5
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  Undefined array key "position" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 6
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  Undefined array key "about" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 7
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  Undefined array key "experience" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 8
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 13
+[08-Oct-2023 05:49:34 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpZqLubN&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 13
+[08-Oct-2023 05:51:50 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 05:51:50 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpoNHdjI&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 05:52:30 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 05:52:30 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php1ioXFe&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:02:20 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:02:20 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php4DCEd5&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:07:13 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:07:13 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpsLRnIC&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:07:47 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:07:47 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpfe3lsU&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:08:00 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:08:00 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phprfrYIU&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:09:01 America/New_York] PHP Warning:  move_uploaded_file(images/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:09:01 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phppB5x9L&quot; to &quot;images/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:18:43 America/New_York] PHP Warning:  move_uploaded_file(images/acd8dcbaef85be84481f47f665599cf7.jpg): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:18:43 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpUAqqTM&quot; to &quot;images/acd8dcbaef85be84481f47f665599cf7.jpg&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:20:10 America/New_York] PHP Warning:  move_uploaded_file(images/ai_sketch02.jpg): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:20:10 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpFOYwS8&quot; to &quot;images/ai_sketch02.jpg&quot; in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 9
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Undefined array key "images" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 5
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 5
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Undefined array key "images" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 7
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 7
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Undefined array key "images" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 8
+[08-Oct-2023 06:21:29 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 8
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Undefined array key "imgs" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 5
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 5
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Undefined array key "imgs" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 7
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 7
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Undefined array key "imgs" in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 8
+[08-Oct-2023 06:22:10 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/lineqsnr/public_html/dashboard/vendor/create.php on line 8
+[16-Oct-2023 05:25:10 America/New_York] PHP Warning:  include(index.php): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 3
+[16-Oct-2023 05:25:10 America/New_York] PHP Warning:  include(): Failed opening 'index.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 3
+[16-Oct-2023 05:25:10 America/New_York] PHP Warning:  move_uploaded_file(imgs/intro/0a06c8ad2a05b719208d5dce79af5c2e 1.png): Failed to open stream: No such file or directory in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 17
+[16-Oct-2023 05:25:10 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php6y78nQ&quot; to &quot;imgs/intro/0a06c8ad2a05b719208d5dce79af5c2e 1.png&quot; in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 17
+[16-Oct-2023 05:26:41 America/New_York] PHP Warning:  Undefined variable $img in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 5
+[16-Oct-2023 05:26:46 America/New_York] PHP Warning:  Undefined variable $img in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 5
+[16-Oct-2023 05:28:22 America/New_York] PHP Warning:  Undefined variable $img in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 5
+[16-Oct-2023 05:30:05 America/New_York] PHP Warning:  Undefined variable $img in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 5
+[16-Oct-2023 05:32:18 America/New_York] PHP Warning:  Undefined variable $img in /home/lineqsnr/public_html/dashboard/home_vendor/create.php on line 5

@@ -1,0 +1,514 @@
+@font-face {
+    font-family: "Knockout";
+    src: url("fonts/Knockout HTF49-Liteweight Regular.otf")
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/barlow/BarlowCondensed-Medium.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    text-decoration: none
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4c4c4c;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1c1b1b
+}
+
+a {
+    color: #0d0d0d
+}
+
+button,
+input {
+    cursor: pointer
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background: #fdfdfc;
+    scroll-behavior: smooth
+}
+
+header {
+    padding: 36px 40px 24px 40px;
+    margin: auto;
+    display: flex;
+    gap: 32px
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between
+}
+
+header nav a:nth-child(2) {
+    display: none;
+    align-items: center;
+    gap: 6px
+}
+
+header nav a:nth-child(2) img {
+    width: 20px
+}
+
+header .logo {
+    max-width: 200px
+}
+
+header .header-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+header .header-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px
+}
+
+header .header-title p {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0b0b0b
+}
+
+.work-link {
+    font-family: "Barlow";
+    letter-spacing: .1em;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5px;
+    justify-self: end;
+}
+
+
+.work-link img {
+    max-width: 20px;
+    transition: 15s;
+    margin-top:4px;
+}
+
+.work-link:hover img {
+    transform: rotate(-1250deg)
+}
+
+header .intro {
+    margin-top: 10px;
+}
+
+header .intro p:nth-child(1){
+ 
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0b0b0b;
+}
+
+header .intro .intro-images {
+    display: flex;
+    gap: 24px;
+    margin-top: 92px;
+}
+
+header .intro .intro-images div {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+header .intro .intro-images div ol {
+    list-style: ordered
+}
+
+header .intro .intro-images div ol li {
+    text-align: center;
+    margin-left: 16px;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0b0b0b
+}
+
+header .intro .intro-images div:nth-child(2) li:nth-child(1) {
+    opacity: 0;
+    height: 0
+}
+
+header .intro .intro-images div img {
+    width: 100%
+}
+
+header .intro .intro-txt {
+    margin-top: 32px
+}
+
+header .intro .intro-txt p {
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    float: right;
+    text-align: end;
+    margin-right:-112px;
+}
+
+footer {
+    padding: 0px 40px 30px 40px;
+    margin: auto;
+    display: grid;
+    gap: 8px;
+    margin-top:-64px;
+
+}
+
+footer img {
+    max-width: 24px
+}
+
+footer a {
+    transition: .3s;
+    color: #0b0b0b;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+footer a:hover {
+    color: #000
+}
+
+.work-intro {
+    margin-top: 92px
+}
+
+.work-intro .work-txt {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 64px
+}
+
+.work-intro .work-txt p {
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #0b0b0b
+}
+
+.work-intro .work-txt pre {
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #0b0b0b
+}
+
+
+.grid-container {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 120px;
+    gap: 1%;
+    padding-bottom: 140px
+}
+
+.grid-container div {
+    width: 24%;
+    display: inline-block
+}
+
+.grid-container div img {
+    width: 100%;
+}
+
+.intro-text {
+    display:flex;
+    align-items:center;
+    gap:12px
+}
+
+.intro-text p{
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0b0b0b;
+}
+
+
+@media(max-width: 1024px) {
+    .work-intro .work-txt {
+        grid-template-columns: 1fr;
+        gap: 32px
+    }
+
+    .grid-container div {
+        width:31%;
+    }
+}
+
+@media(max-width: 768px) {
+    
+    header .header-container {
+        grid-template-columns:1fr;
+        justify-items: flex-start;
+    }
+    
+    header .intro .intro-images {
+         padding:52px;
+         margin-top: 32px;
+        
+    }
+    
+    header .intro .intro-txt {
+        margin-top: 0; 
+        padding:0 52px;
+        
+    }
+    
+    .intro-text {
+        margin-top:24px;
+    }
+    
+    header .intro .intro-txt p {
+        margin-right: 0;
+       max-width: 200px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    
+    header .intro .intro-txt br {
+       display:none;
+    }
+
+   
+    .intro-text {
+         flex-direction:column;
+         align-items:flex-start;
+    }
+    
+    .intro-text p:nth-child(even){
+       display:none;
+    }
+
+    .work-intro {
+        margin-top: 32px
+    }
+
+    .work-intro p {
+        font-size: 16px
+    }
+    
+    .work-link {
+        display:none;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 24px
+    }
+
+    header nav a:nth-child(2) {
+        display: flex;
+        font-family: "Barlow";
+        letter-spacing: .1em;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 5px;
+        justify-self: end;
+        position: absolute;
+    gap: 6px;
+    right: 24px;
+    }
+
+    .header-title p {
+        font-size: 14px
+    }
+
+    .header-title a {
+        display: none !important
+    }
+
+    footer {
+        padding: 44px 24px 40px 24px
+    }
+
+    footer p {
+        font-size: 14px
+    }
+
+    .grid-container {
+  
+        padding:0px 24px;
+        margin-top:32px;
+        gap:6%
+    }
+    
+     .grid-container div {
+        width:47%;
+    }
+}
+
+@media(max-width: 500px) {
+    .grid-container div {
+        width:100%;
+    }
+}
+
+.fake-div {
+    width: 280px !important;
+    height: 300px;
+}
+
+/*# sourceMappingURL=style.min.css.map */
+
+
+
+/*# animation */
+
+  .fadeInUp {
+ 
+    animation-fill-mode: both;
+  
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+  }
+
+
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
+/* Style for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0; /* Initially, set opacity to 0 */
+    transition: opacity 0.3s; /* Add a transition for opacity */
+    align-items: center;
+     backdrop-filter:blur(4px);
+    justify-content: center;
+}
+
+/* Style for the close button */
+.close {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+/* Style for the modal image */
+.modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* Optional CSS for styling grid items */
+.grid-item {
+    cursor: pointer;
+}
+/* Loading screen styles */
+#loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#loading-screen img {
+
+    width: 64px;
+    height: 64px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
